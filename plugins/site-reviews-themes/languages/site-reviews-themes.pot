@@ -1,0 +1,979 @@
+# Copyright (C) 2022 site-reviews-themes
+# This file is distributed under the same license as the site-reviews-themes package.
+msgid ""
+msgstr ""
+"Project-Id-Version: site-reviews-themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Gemini Labs <support@geminilabs.io>\n"
+"Last-Translator: Paul Ryley <paul@geminilabs.io>\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: undefined\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: compatibility.php:47
+msgctxt "admin-text"
+msgid "Create Review Themes"
+msgstr ""
+
+#: compatibility.php:48
+msgctxt "admin-text"
+msgid "Delete Others' Review Themes"
+msgstr ""
+
+#: compatibility.php:49
+msgctxt "admin-text"
+msgid "Delete Review Themes"
+msgstr ""
+
+#: compatibility.php:50
+msgctxt "admin-text"
+msgid "Delete Private Review Themes"
+msgstr ""
+
+#: compatibility.php:51
+msgctxt "admin-text"
+msgid "Delete Published Review Themes"
+msgstr ""
+
+#: compatibility.php:52
+msgctxt "admin-text"
+msgid "Edit Others' Review Themes"
+msgstr ""
+
+#: compatibility.php:53
+msgctxt "admin-text"
+msgid "Edit Review Themes"
+msgstr ""
+
+#: compatibility.php:54
+msgctxt "admin-text"
+msgid "Edit Private Review Themes"
+msgstr ""
+
+#: compatibility.php:55
+msgctxt "admin-text"
+msgid "Edit Published Review Themes"
+msgstr ""
+
+#: compatibility.php:56
+msgctxt "admin-text"
+msgid "Publish Review Themes"
+msgstr ""
+
+#: compatibility.php:57
+msgctxt "admin-text"
+msgid "Read Private Review Themes"
+msgstr ""
+
+#: config/settings.php:9
+msgctxt "setting label (admin-text)"
+msgid "Swiper Library"
+msgstr ""
+
+#: config/settings.php:11
+msgctxt "setting option (admin-text)"
+msgid "Use Splide (default)"
+msgstr ""
+
+#: config/settings.php:12
+msgctxt "setting option (admin-text)"
+msgid "Use Swiper"
+msgstr ""
+
+#: config/settings.php:15
+msgctxt "setting tooltip (admin-text)"
+msgid "Select the swiper library that you would like to use for the carousel."
+msgstr ""
+
+#: config/settings.php:16
+msgctxt "setting tooltip (admin-text)"
+msgid "<a href=\"https://splidejs.com\" target=\"_blank\">Splide</a> is a lightweight, flexible and accessible slider; it is also used by the Review Images add-on."
+msgstr ""
+
+#: config/settings.php:17
+msgctxt "setting tooltip (admin-text)"
+msgid "<a href=\"https://swiperjs.com\" target=\"_blank\">Swiper</a> is a more popular slider, but not as lightweight as Splide."
+msgstr ""
+
+#: config/settings.php:23
+msgctxt "setting label (admin-text)"
+msgid "Load Swiper Assets?"
+msgstr ""
+
+#: config/settings.php:24
+msgctxt "setting tooltip (admin-text)"
+msgid "Would you like to load the javascript and CSS of the selected library? If your theme is already using the library, you may want to disable this."
+msgstr ""
+
+#: config/theme-settings.php:6, plugin/ThemeSettings.php:105
+msgctxt "admin-text"
+msgid "Appearance"
+msgstr ""
+
+#: config/theme-settings.php:8
+msgctxt "admin-text"
+msgid "Custom"
+msgstr ""
+
+#: config/theme-settings.php:9
+msgctxt "admin-text"
+msgid "Dark"
+msgstr ""
+
+#: config/theme-settings.php:10
+msgctxt "admin-text"
+msgid "Light"
+msgstr ""
+
+#: config/theme-settings.php:11
+msgctxt "admin-text"
+msgid "Transparent"
+msgstr ""
+
+#: config/theme-settings.php:13
+msgctxt "admin-text"
+msgid "Select one of the preset styles, or choose \"Custom\" to use your own style."
+msgstr ""
+
+#: config/theme-settings.php:18
+msgctxt "admin-text"
+msgid "Display As"
+msgstr ""
+
+#: config/theme-settings.php:20
+msgctxt "admin-text"
+msgid "Carousel"
+msgstr ""
+
+#: config/theme-settings.php:21
+msgctxt "admin-text"
+msgid "List"
+msgstr ""
+
+#: config/theme-settings.php:22
+msgctxt "admin-text"
+msgid "Grid"
+msgstr ""
+
+#: config/theme-settings.php:25
+msgctxt "admin-text"
+msgid "Select how you want your reviews to be displayed"
+msgstr ""
+
+#: config/theme-settings.php:33
+msgctxt "admin-text"
+msgid "Maximum Columns"
+msgstr ""
+
+#: config/theme-settings.php:35, config/theme-settings.php:51
+msgctxt "admin-text"
+msgid "Auto Fit"
+msgstr ""
+
+#: config/theme-settings.php:36
+msgctxt "admin-text"
+msgid "2 Columns"
+msgstr ""
+
+#: config/theme-settings.php:37
+msgctxt "admin-text"
+msgid "3 Columns"
+msgstr ""
+
+#: config/theme-settings.php:38
+msgctxt "admin-text"
+msgid "4 Columns"
+msgstr ""
+
+#: config/theme-settings.php:41
+msgctxt "admin-text"
+msgid "Limit the responsive grid to a maximum number of columns"
+msgstr ""
+
+#: config/theme-settings.php:49
+msgctxt "admin-text"
+msgid "Maximum Slides Per View"
+msgstr ""
+
+#: config/theme-settings.php:52
+msgctxt "admin-text"
+msgid "1 Slide"
+msgstr ""
+
+#: config/theme-settings.php:53
+msgctxt "admin-text"
+msgid "2 Slides"
+msgstr ""
+
+#: config/theme-settings.php:54
+msgctxt "admin-text"
+msgid "3 Slides"
+msgstr ""
+
+#: config/theme-settings.php:55
+msgctxt "admin-text"
+msgid "4 Slides"
+msgstr ""
+
+#: config/theme-settings.php:58
+msgctxt "admin-text"
+msgid "Limit the responsive carousel to a maximum number of slides"
+msgstr ""
+
+#: config/theme-settings.php:64
+msgctxt "admin-text"
+msgid "Review Spacing"
+msgstr ""
+
+#: config/theme-settings.php:72
+msgctxt "admin-text"
+msgid "The spacing between reviews."
+msgstr ""
+
+#: config/theme-settings.php:77
+msgctxt "admin-text"
+msgid "Excerpt Action"
+msgstr ""
+
+#: config/theme-settings.php:79
+msgctxt "admin-text"
+msgid "Disable excerpts"
+msgstr ""
+
+#: config/theme-settings.php:80
+msgctxt "admin-text"
+msgid "Collapse/Expand text"
+msgstr ""
+
+#: config/theme-settings.php:81
+msgctxt "admin-text"
+msgid "Display review in modal"
+msgstr ""
+
+#: config/theme-settings.php:83
+msgctxt "admin-text"
+msgid "The action that is performed when you click the \"Read more\" link"
+msgstr ""
+
+#: config/theme-settings.php:91
+msgctxt "admin-text"
+msgid "Excerpt Length"
+msgstr ""
+
+#: config/theme-settings.php:92
+msgctxt "admin-text"
+msgid "The maximum number of characters or words to display in a review, the remainder will be hidden behind a \"Read more\" link"
+msgstr ""
+
+#: config/theme-settings.php:97
+msgctxt "admin-text"
+msgid "Background"
+msgstr ""
+
+#: config/theme-settings.php:102
+msgctxt "admin-text"
+msgid "The background colour of the review."
+msgstr ""
+
+#: config/theme-settings.php:107
+msgctxt "admin-text"
+msgid "Border"
+msgstr ""
+
+#: config/theme-settings.php:112
+msgctxt "admin-text"
+msgid "The border colour of the review."
+msgstr ""
+
+#: config/theme-settings.php:117, config/theme-settings.php:202
+msgctxt "admin-text"
+msgid "Border Radius"
+msgstr ""
+
+#: config/theme-settings.php:124, config/theme-settings.php:209
+msgctxt "setting label (admin-text)"
+msgid "The top-left corner"
+msgstr ""
+
+#: config/theme-settings.php:125, config/theme-settings.php:210
+msgctxt "setting label (admin-text)"
+msgid "The top-right corner"
+msgstr ""
+
+#: config/theme-settings.php:126, config/theme-settings.php:211
+msgctxt "setting label (admin-text)"
+msgid "The bottom-right corner"
+msgstr ""
+
+#: config/theme-settings.php:127, config/theme-settings.php:212
+msgctxt "setting label (admin-text)"
+msgid "The bottom-left corner"
+msgstr ""
+
+#: config/theme-settings.php:128, config/theme-settings.php:145, config/theme-settings.php:162, config/theme-settings.php:213
+msgctxt "setting label (admin-text)"
+msgid "The size unit"
+msgstr ""
+
+#: config/theme-settings.php:134
+msgctxt "admin-text"
+msgid "Border Width"
+msgstr ""
+
+#: config/theme-settings.php:141
+msgctxt "setting label (admin-text)"
+msgid "The top border"
+msgstr ""
+
+#: config/theme-settings.php:142
+msgctxt "setting label (admin-text)"
+msgid "The right border"
+msgstr ""
+
+#: config/theme-settings.php:143
+msgctxt "setting label (admin-text)"
+msgid "The bottom border"
+msgstr ""
+
+#: config/theme-settings.php:144
+msgctxt "setting label (admin-text)"
+msgid "The left border"
+msgstr ""
+
+#: config/theme-settings.php:151
+msgctxt "admin-text"
+msgid "Padding"
+msgstr ""
+
+#: config/theme-settings.php:158
+msgctxt "setting label (admin-text)"
+msgid "The top padding"
+msgstr ""
+
+#: config/theme-settings.php:159
+msgctxt "setting label (admin-text)"
+msgid "The right padding"
+msgstr ""
+
+#: config/theme-settings.php:160
+msgctxt "setting label (admin-text)"
+msgid "The bottom padding"
+msgstr ""
+
+#: config/theme-settings.php:161
+msgctxt "setting label (admin-text)"
+msgid "The left padding"
+msgstr ""
+
+#: config/theme-settings.php:168
+msgctxt "admin-text"
+msgid "Shadow 1"
+msgstr ""
+
+#: config/theme-settings.php:175, config/theme-settings.php:192
+msgctxt "setting label (admin-text)"
+msgid "The box-shadow offset-x in px"
+msgstr ""
+
+#: config/theme-settings.php:176, config/theme-settings.php:193
+msgctxt "setting label (admin-text)"
+msgid "The box-shadow offset-y in px"
+msgstr ""
+
+#: config/theme-settings.php:177, config/theme-settings.php:194
+msgctxt "setting label (admin-text)"
+msgid "The box-shadow blur-radius in px"
+msgstr ""
+
+#: config/theme-settings.php:178, config/theme-settings.php:195
+msgctxt "setting label (admin-text)"
+msgid "The box-shadow spread-radius in px"
+msgstr ""
+
+#: config/theme-settings.php:179, config/theme-settings.php:196
+msgctxt "setting label (admin-text)"
+msgid "The box-shadow colour"
+msgstr ""
+
+#: config/theme-settings.php:185
+msgctxt "admin-text"
+msgid "Shadow 2"
+msgstr ""
+
+#: config/theme-settings.php:220
+msgctxt "admin-text"
+msgid "Image Size"
+msgstr ""
+
+#: config/theme-settings.php:228
+msgctxt "admin-text"
+msgid "The height and width of the avatar image"
+msgstr ""
+
+#: config/theme-settings.php:245
+msgctxt "admin-text"
+msgid "Rating Colours"
+msgstr ""
+
+#: config/theme-settings.php:256
+msgctxt "setting label (admin-text)"
+msgid "Colour used for a 0-star rating"
+msgstr ""
+
+#: config/theme-settings.php:257
+msgctxt "setting label (admin-text)"
+msgid "Colour used for a 1-star rating"
+msgstr ""
+
+#: config/theme-settings.php:258
+msgctxt "setting label (admin-text)"
+msgid "Colour used for a 2-star rating"
+msgstr ""
+
+#: config/theme-settings.php:259
+msgctxt "setting label (admin-text)"
+msgid "Colour used for a 3-star rating"
+msgstr ""
+
+#: config/theme-settings.php:260
+msgctxt "setting label (admin-text)"
+msgid "Colour used for a 4-star rating"
+msgstr ""
+
+#: config/theme-settings.php:261
+msgctxt "setting label (admin-text)"
+msgid "Colour used for a 5-star rating"
+msgstr ""
+
+#: config/theme-settings.php:267
+msgctxt "setting label (admin-text)"
+msgid "Rating Image"
+msgstr ""
+
+#: config/theme-settings.php:269
+msgctxt "setting option (admin-text)"
+msgid "Star (default)"
+msgstr ""
+
+#: config/theme-settings.php:270
+msgctxt "setting option (admin-text)"
+msgid "Star (WordPress)"
+msgstr ""
+
+#: config/theme-settings.php:271
+msgctxt "setting option (admin-text)"
+msgid "Star (square)"
+msgstr ""
+
+#: config/theme-settings.php:272
+msgctxt "setting option (admin-text)"
+msgid "Star (rounded square)"
+msgstr ""
+
+#: config/theme-settings.php:273
+msgctxt "setting option (admin-text)"
+msgid "Star (circle)"
+msgstr ""
+
+#: config/theme-settings.php:274
+msgctxt "setting option (admin-text)"
+msgid "Heart (circle)"
+msgstr ""
+
+#: config/theme-settings.php:275
+msgctxt "setting option (admin-text)"
+msgid "Heart"
+msgstr ""
+
+#: config/theme-settings.php:276
+msgctxt "setting option (admin-text)"
+msgid "Circle"
+msgstr ""
+
+#: config/theme-settings.php:277
+msgctxt "setting option (admin-text)"
+msgid "Emoji (solid)"
+msgstr ""
+
+#: config/theme-settings.php:278
+msgctxt "setting option (admin-text)"
+msgid "Emoji (gradient)"
+msgstr ""
+
+#: config/theme-settings.php:280
+msgctxt "setting label (admin-text)"
+msgid "The images used for the star rating (emojis use predefined colours)"
+msgstr ""
+
+#: config/theme-settings.php:286
+msgctxt "admin-text"
+msgid "Rating Image Size"
+msgstr ""
+
+#: config/theme-settings.php:294
+msgctxt "admin-text"
+msgid "The height/width of the rating image."
+msgstr ""
+
+#: config/theme-settings.php:299
+msgctxt "admin-text"
+msgid "Large Text"
+msgstr ""
+
+#: config/theme-settings.php:307, config/theme-settings.php:324, config/theme-settings.php:341
+msgctxt "admin-text (setting label)"
+msgid "The font-size"
+msgstr ""
+
+#: config/theme-settings.php:308, config/theme-settings.php:325, config/theme-settings.php:342
+msgctxt "admin-text (setting label)"
+msgid "The line-height"
+msgstr ""
+
+#: config/theme-settings.php:309, config/theme-settings.php:326, config/theme-settings.php:343
+msgctxt "admin-text (setting label)"
+msgid "The size unit"
+msgstr ""
+
+#: config/theme-settings.php:310, config/theme-settings.php:327, config/theme-settings.php:344
+msgctxt "setting label (admin-text)"
+msgid "The text colour"
+msgstr ""
+
+#: config/theme-settings.php:316
+msgctxt "admin-text"
+msgid "Normal Text"
+msgstr ""
+
+#: config/theme-settings.php:333
+msgctxt "admin-text"
+msgid "Small Text"
+msgstr ""
+
+#: plugin/Gatekeeper.php:101
+msgctxt "admin-text"
+msgid "%s requires the latest version of"
+msgid_plural "%s requires the latest version of the following plugins:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Gatekeeper.php:117
+msgctxt "admin-text"
+msgid "%s needs an update to work with"
+msgid_plural "%s needs an update to work with the following plugins:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Theme.php:45
+msgctxt "admin-text"
+msgid "Builder"
+msgstr ""
+
+#: plugin/Theme.php:88
+msgctxt "admin-text"
+msgid "Default Form"
+msgstr ""
+
+#: plugin/Theme.php:121
+msgctxt "admin-text"
+msgid "Preview"
+msgstr ""
+
+#: plugin/Theme.php:157
+msgctxt "admin-text"
+msgid "Presentation"
+msgstr ""
+
+#: plugin/Theme.php:161
+msgctxt "admin-text"
+msgid "Design"
+msgstr ""
+
+#: plugin/ThemeSettings.php:97
+msgctxt "admin-text"
+msgid "Layout"
+msgstr ""
+
+#: plugin/ThemeSettings.php:101
+msgctxt "admin-text"
+msgid "Review Excerpts"
+msgstr ""
+
+#: plugin/ThemeSettings.php:109
+msgctxt "admin-text"
+msgid "Avatar"
+msgstr ""
+
+#: plugin/ThemeSettings.php:113
+msgctxt "admin-text"
+msgid "Rating"
+msgstr ""
+
+#: plugin/ThemeSettings.php:117
+msgctxt "admin-text"
+msgid "Typography"
+msgstr ""
+
+#: views/metabox-help.php:3
+msgctxt "admin-text"
+msgid "Display your reviews with this theme:"
+msgstr ""
+
+#: views/metabox-help.php:8
+msgctxt "admin-text"
+msgid "Display the rating summary using your chosen rating image and colours:"
+msgstr ""
+
+#: views/metabox-help.php:13
+msgctxt "admin-text"
+msgid "Display the review form using your chosen rating image and colours:"
+msgstr ""
+
+#: views/metabox-settings.php:8
+msgctxt "admin-text"
+msgid "Loading settings..."
+msgstr ""
+
+#: views/metabox-tags.php:10
+msgctxt "admin-text"
+msgid "Loading tags..."
+msgstr ""
+
+#: views/metabox-theme.php:7
+msgctxt "admin-text"
+msgid "Loading theme..."
+msgstr ""
+
+#: views/templates.php:9
+msgctxt "admin-text"
+msgid "Read more"
+msgstr ""
+
+#: views/templates.php:68, views/templates.php:144
+msgctxt "admin-text"
+msgid "Link values together"
+msgstr ""
+
+#: views/templates.php:70, views/templates.php:146
+msgctxt "admin-text"
+msgid "Click to link the values together"
+msgstr ""
+
+#: views/templates.php:89
+msgctxt "admin-text"
+msgid "characters"
+msgstr ""
+
+#: views/templates.php:90
+msgctxt "admin-text"
+msgid "words"
+msgstr ""
+
+#: views/templates.php:207
+msgctxt "admin-text"
+msgid "When you have reviews to display, they will replace the review placeholders below."
+msgstr ""
+
+#: views/templates.php:290
+msgctxt "admin-text"
+msgid "Insert the selected field or container into a parent container"
+msgstr ""
+
+#: views/templates.php:302
+msgctxt "admin-text"
+msgid "Remove the field"
+msgstr ""
+
+#: views/templates.php:320
+msgctxt "admin-text"
+msgid "Change the direction that the fields flow in the container"
+msgstr ""
+
+#: views/templates.php:334
+msgctxt "admin-text"
+msgid "Allow the fields to flow onto multiple rows"
+msgstr ""
+
+#: views/templates.php:334
+msgctxt "admin-text"
+msgid "Allow the fields to flow onto multiple columns"
+msgstr ""
+
+#: views/templates.php:350
+msgctxt "admin-text"
+msgid "Align items to the top of the container"
+msgstr ""
+
+#: views/templates.php:352
+msgctxt "admin-text"
+msgid "Align items to the left of the container"
+msgstr ""
+
+#: views/templates.php:366
+msgctxt "admin-text"
+msgid "Align items to the middle of the container"
+msgstr ""
+
+#: views/templates.php:380
+msgctxt "admin-text"
+msgid "Align items to the bottom of the container"
+msgstr ""
+
+#: views/templates.php:382
+msgctxt "admin-text"
+msgid "Align items to the right of the container"
+msgstr ""
+
+#: views/templates.php:400
+msgctxt "admin-text"
+msgid "Shrink if needed"
+msgstr ""
+
+#: views/templates.php:413
+msgctxt "admin-text"
+msgid "Grow if possible"
+msgstr ""
+
+#: views/templates.php:426
+msgctxt "admin-text"
+msgid "Do not grow or shrink"
+msgstr ""
+
+#: views/templates.php:443
+msgctxt "admin-text"
+msgid "Use the Large Text setting in this field"
+msgstr ""
+
+#: views/templates.php:452
+msgctxt "admin-text"
+msgid "Use the Normal Text setting in this field"
+msgstr ""
+
+#: views/templates.php:461
+msgctxt "admin-text"
+msgid "Use the Small Text setting in this field"
+msgstr ""
+
+#: views/templates.php:471
+msgctxt "admin-text"
+msgid "Make the text bold"
+msgstr ""
+
+#: views/templates.php:481
+msgctxt "admin-text"
+msgid "Make the text italic"
+msgstr ""
+
+#: views/templates.php:491
+msgctxt "admin-text"
+msgid "Make the text uppercase"
+msgstr ""
+
+#: views/templates.php:501
+msgctxt "admin-text"
+msgid "Hide field unless viewed in modal"
+msgstr ""
+
+#: views/templates.php:513
+msgctxt "admin-text"
+msgid "Adjust the minimum width, enter 0 to remove"
+msgstr ""
+
+#: views/templates.php:529
+msgctxt "admin-text"
+msgid "Adjust the spacing between fields"
+msgstr ""
+
+#: plugin/Controllers/ApiController.php:14
+msgctxt "admin-text"
+msgid "Render the review with a specific custom review theme (ID); only works with the rendered parameter."
+msgstr ""
+
+#: plugin/Controllers/ApiController.php:28
+msgctxt "admin-text"
+msgid "Render the summary with a specific custom review theme (ID); only works with the rendered parameter."
+msgstr ""
+
+#: plugin/Controllers/Controller.php:118
+msgctxt "Theme table columns (admin-text)"
+msgid "Shortcode"
+msgstr ""
+
+#: plugin/Controllers/Controller.php:135
+msgctxt "admin-text"
+msgid "Use a Custom Theme"
+msgstr ""
+
+#: plugin/Controllers/Controller.php:142
+msgctxt "admin-text"
+msgid "This overrides the Custom Form Review Template."
+msgstr ""
+
+#: plugin/Controllers/Controller.php:157
+msgctxt "admin-text"
+msgid "Unable to load."
+msgstr ""
+
+#: plugin/Controllers/Controller.php:158
+msgctxt "admin-text"
+msgid "Unable to load the Theme Builder. Please read the Basic Troubleshooting steps on the Help page."
+msgstr ""
+
+#: plugin/Controllers/Controller.php:193
+msgctxt "The Theme Post ID (admin-text)"
+msgid "<span>ID: %d</span>"
+msgstr ""
+
+#: plugin/Controllers/Controller.php:346
+msgctxt "admin-text"
+msgid "This theme uses a custom form, but the Review Forms add-on is not activated."
+msgstr ""
+
+#: plugin/Controllers/Controller.php:353
+msgctxt "admin-text"
+msgid "This theme uses a custom form, but the selected form no longer exists."
+msgstr ""
+
+#: plugin/Controllers/RestController.php:59
+msgctxt "admin-text"
+msgid "You must be logged in to access this route."
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:15
+msgctxt "Add New Post (admin-text)"
+msgid "Add New Theme"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:16
+msgctxt "All Posts (admin-text)"
+msgid "All Themes"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:17
+msgctxt "Post Archives (admin-text)"
+msgid "Review Theme Archives"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:18
+msgctxt "Edit Post (admin-text)"
+msgid "Edit Review Theme"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:19
+msgctxt "Insert into Post (admin-text)"
+msgid "Insert into Theme"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:20
+msgctxt "admin-text"
+msgid "Review Themes"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:21
+msgctxt "New Post (admin-text)"
+msgid "New Theme"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:22
+msgctxt "No Posts found (admin-text)"
+msgid "No Review Themes found"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:23
+msgctxt "No Posts found in Trash (admin-text)"
+msgid "No Review Themes found in Trash"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:24
+msgctxt "Search Posts (admin-text)"
+msgid "Search Themes"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:25
+msgctxt "admin-text"
+msgid "Review Theme"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:26
+msgctxt "Uploaded to this Post (admin-text)"
+msgid "Uploaded to this Theme"
+msgstr ""
+
+#: plugin/Defaults/PostTypeLabelDefaults.php:27
+msgctxt "View Post (admin-text)"
+msgid "View Review Theme"
+msgstr ""
+
+#: plugin/Metaboxes/FormTagsMetabox.php:16
+msgctxt "admin-text"
+msgid "Template Tags"
+msgstr ""
+
+#: plugin/Metaboxes/FormTagsMetabox.php:25
+msgctxt "admin-text"
+msgid "Select a form to change the template tags. You can create your own custom forms with the %s add-on."
+msgstr ""
+
+#: plugin/Metaboxes/FormTagsMetabox.php:26
+msgctxt "admin-text"
+msgid "Review Forms"
+msgstr ""
+
+#: plugin/Metaboxes/HelpMetabox.php:16
+msgctxt "admin-text"
+msgid "How To Use"
+msgstr ""
+
+#: plugin/Metaboxes/SubmitMetabox.php:16
+msgctxt "admin-text"
+msgid "Theme Settings"
+msgstr ""
+
+#: plugin/Settings/Layout.php:16
+msgctxt "admin-text"
+msgid "Custom: Number"
+msgstr ""
+
+#: plugin/Mock/Tags/AssignedLinksTag.php:13
+msgctxt "admin-text"
+msgid "Review of %s"
+msgstr ""
+
+#: plugin/Mock/Tags/AssignedPostsTag.php:12
+msgctxt "admin-text"
+msgid "This Product"
+msgstr ""
+
+#: plugin/Mock/Tags/AssignedTermsTag.php:12
+msgctxt "admin-text"
+msgid "People and Places"
+msgstr ""
+
+#: plugin/Mock/Tags/AssignedUsersTag.php:12
+msgctxt "admin-text"
+msgid "Peter and Jane"
+msgstr ""
+
+#: plugin/Mock/Tags/OptionTag.php:13
+msgctxt "admin-text"
+msgid "Selected Value"
+msgstr ""
+
+#: plugin/Mock/Tags/TitleTag.php:22
+msgctxt "admin-text"
+msgid "Review Title"
+msgstr ""
+
+#: plugin/Mock/Tags/ToggleTag.php:13
+msgctxt "admin-text"
+msgid "Yes"
+msgstr ""

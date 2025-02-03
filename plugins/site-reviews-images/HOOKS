@@ -1,0 +1,7 @@
+## Actions
+
+site-reviews-images/uploaded            (\WP_Post $attachment): void
+
+## Filters
+
+site-reviews-images/filename            (string $filename, string $extension): string

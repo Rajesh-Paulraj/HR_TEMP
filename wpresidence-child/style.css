@@ -1,0 +1,1256 @@
+/*
+Theme Name: WpResidence Child
+Theme URI: https://themeforest.net/user/wpestate
+Template: wpresidence
+Author: wpestate-child
+Author URI: https://www.wpestate.org
+Description: WP Residence is a premium &amp; responsive WordPress theme designed for Real Estate companies and independent agents.
+Tags: white,one-column,two-columns,left-sidebar,right-sidebar,fluid-layout,custom-menu,theme-options,translation-ready
+Version: 4.21.2.1720289410
+Updated: 2024-07-06 18:10:10
+
+*/
+
+.ui-slider-range.ui-corner-all.ui-widget-header {
+    background-color: #8e6556 !important;
+}
+
+.wpestate_elementor_search_tab_slider {
+    background-color: #dacec1 !important;
+}
+
+.logo img {
+    max-height: 110px;
+    max-width: 200px;
+}
+
+/* START */
+.custom-property-right-side-container .elementor-element {
+    --widgets-spacing: 10px 20px;
+}
+
+.custom-single-h1 h1 {
+    font-size: 26px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.wpresidence_button.submit-reply, .wpresidence_button.reply {
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+.custom-comment-textarea {
+    margin-top: 20px;
+}
+.custom-comment-content {
+    /* border: 1px solid #f0f0f0; */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* background: #E4E4E4; */
+}
+.custom-comment-container {
+    -webkit-box-shadow: 0 10px 35px rgb(38 42 76 / 10%);
+    box-shadow: 0 10px 35px rgb(38 42 76 / 10%);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* END */
+
+/* START - design_property_details_to_show_right_side_of_image */
+/* DELETE IT -ITS COPY FROM roof & flooe. Not needed */
+
+.primary_bg_info {
+    width: 100%;
+    padding: 4px 15px;
+    max-height: 450px;
+    min-height: 450px;
+    background: none;
+    vertical-align: top;
+    display: inline-block;
+    position: relative
+}
+
+.primary_bg_info h1 {
+    font-size: 26px;
+    font-weight: 500
+}
+
+@media only screen and (max-width: 1200px) {
+    .primary_bg_info h1 {
+        font-size:22px
+    }
+}
+
+.primary_bg_info .details-bhk {
+    font-size: 14px;
+    margin: 10px 0
+}
+
+.primary_bg_info .details-price {
+    margin-top: 30px;
+    color: #252525
+}
+
+.primary_bg_info .details-price__base {
+    font-size: 18px;
+    padding-bottom: 7px
+}
+
+.primary_bg_info .details-price i {
+    font-size: 14px
+}
+
+.primary_bg_info .details-locality {
+    font-size: 14px;
+    margin-top: 15px
+}
+
+.primary_bg_info .details-possession {
+    font-size: 14px
+}
+
+.primary_bg_info {
+    border-radius: 9px
+}
+
+.primary_bg_info .details {
+    font-size: 14px
+}
+
+.primary_bg_info .pdp-heading {
+    font-size: 23px;
+    letter-spacing: 0;
+    color: #434343;
+    margin-bottom: 0
+}
+
+.primary_bg_info .details-bhk {
+    font-size: 13px;
+    margin: 8px 0
+}
+
+.primary_bg_info .details-builder {
+    font-size: 14px;
+    color: #000
+}
+
+.primary_bg_info .details-price {
+    position: relative;
+    margin-top: 2rem;
+    color: #434343;
+    font-size: 14px
+}
+
+.primary_bg_info .details-price .price_sqft {
+    font-weight: 400;
+    font-size: 13px;
+    color: #737a80
+}
+
+.primary_bg_info .details-price .price_sqft .rnf-rupee {
+    font-size: 16px;
+    color: #737a80
+}
+
+.primary_bg_info .unit-container {
+    margin-top: 2rem;
+    color: #737a80
+}
+
+.primary_bg_info .unit-container img {
+    margin-right: 8px;
+    width: 14px;
+    height: 14px
+}
+
+.primary_bg_info .unit-container span {
+    color: #212121
+}
+
+.primary_bg_info .unit-container .offers-made-container-GIHS {
+    color: #e66e2e;
+    font-weight: 800;
+    font-size: 14px
+}
+
+.primary_bg_info .details-price .true-price--button {
+    margin-top: .25rem
+}
+
+.primary_bg_info .details-price__base {
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 0
+}
+
+@media only screen and (max-width: 1100px) {
+    .primary_bg_info .details-price__base {
+        font-size:16px
+    }
+}
+
+.primary_bg_info .details-price .rnf-rupee {
+    font-size: 22px;
+    font-weight: 400
+}
+
+.primary_bg_info .details-price .rnf-rupee:before {
+    margin: 0
+}
+
+.primary_bg_info .details-locality {
+    font-size: 13px;
+    margin-top: 1rem;
+    color: #434343;
+    font-weight: 400
+}
+
+.primary_bg_info .details-locality img {
+    margin-top: -.25em;
+    margin-right: .25em
+}
+
+.primary_bg_info .details-locality .landmark-container {
+    margin: 8px 0;
+    font-weight: 400
+}
+
+.primary_bg_info .details-locality .landmark-container span {
+    background: rgba(115,142,154,.1);
+    padding: 6px 10px;
+    font-size: 13px;
+    color: #767676;
+    border-radius: 3px
+}
+
+.primary_bg_info .details-locality .landmark-container .tooltip-container {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.primary_bg_info .details-possession {
+    padding-bottom: 8px;
+    font-size: 13px;
+    margin-bottom: 0
+}
+
+.primary_bg_info .details-lastUpdatedDate {
+    font-size: 13px;
+    padding-bottom: 5px
+}
+
+.primary_bg_info .bank-banner {
+    width: 100%
+}
+
+.primary_bg_info_resale {
+    border-radius: 9px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.25)
+}
+
+.primary_bg_info_resale .details {
+    font-size: 14px
+}
+
+.primary_bg_info_resale .pdp-heading {
+    font-size: 23px;
+    letter-spacing: 0;
+    color: #434343;
+    margin-bottom: 0
+}
+
+.primary_bg_info_resale .details-bhk {
+    font-size: 13px;
+    margin: 8px 0
+}
+
+.primary_bg_info_resale .details-builder {
+    font-size: 14px;
+    color: #000
+}
+
+.primary_bg_info_resale .details-price {
+    position: relative;
+    margin-top: 2rem;
+    color: #434343;
+    font-size: 14px
+}
+
+.primary_bg_info_resale .details-price .price_sqft {
+    font-weight: 400;
+    font-size: 13px;
+    color: #737a80
+}
+
+.primary_bg_info_resale .details-price .price_sqft .rnf-rupee {
+    font-size: 16px;
+    color: #737a80
+}
+
+.primary_bg_info_resale .unit-container {
+    margin-top: 2rem;
+    color: #737a80
+}
+
+.primary_bg_info_resale .unit-container img {
+    margin-right: 8px;
+    width: 14px;
+    height: 14px
+}
+
+.primary_bg_info_resale .unit-container span {
+    color: #212121
+}
+
+.primary_bg_info_resale .unit-container .offers-made-container-GIHS {
+    color: #e66e2e;
+    font-weight: 800;
+    font-size: 14px
+}
+
+.primary_bg_info_resale .details-price .true-price--button {
+    margin-top: .25rem
+}
+
+.primary_bg_info_resale .details-price__base {
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 0
+}
+
+@media only screen and (max-width: 1100px) {
+    .primary_bg_info_resale .details-price__base {
+        font-size:16px
+    }
+}
+
+.primary_bg_info_resale .details-price__bas {
+    margin: 0 8%
+}
+
+.primary_bg_info_resale .details-price .rnf-rupee {
+    font-size: 22px;
+    font-weight: 400
+}
+
+.primary_bg_info_resale .details-price .rnf-rupee:before {
+    margin: 0
+}
+
+.primary_bg_info_resale .details-locality {
+    font-size: 13px;
+    margin-top: 1rem;
+    color: #434343;
+    font-weight: 400
+}
+
+.primary_bg_info_resale .details-locality img {
+    margin-top: -.25em;
+    margin-right: .25em
+}
+
+.primary_bg_info_resale .details-locality .landmark-container {
+    margin: 8px 0;
+    font-weight: 400
+}
+
+.primary_bg_info_resale .details-locality .landmark-container span {
+    background: rgba(115,142,154,.1);
+    padding: 6px 10px;
+    font-size: 13px;
+    color: #767676;
+    border-radius: 3px
+}
+
+.primary_bg_info_resale .details-locality .landmark-container .tooltip-container {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.primary_bg_info_resale .details-possession {
+    color: #000;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35.011px;
+    margin-bottom: 10px
+}
+
+.primary_bg_info_resale .possessiondate {
+    color: #3d8ff7;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal
+}
+
+.primary_bg_info_resale .details-lastUpdatedDate {
+    font-size: 13px;
+    padding-bottom: 5px
+}
+
+.primary_bg_info_resale .bank-banner {
+    width: 100%
+}
+
+.primary_bg_info a {
+    color: #1890ff;
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+    -webkit-text-decoration-skip: objects;
+}
+
+.primary_bg_info a:hover {
+    color: #40a9ff;
+    outline: 0;
+    text-decoration: none;
+}
+
+/* Custom Comments */
+#comments {
+    margin: 0 !important;
+}
+
+#accordion_property_details_collapse_comments .panel-body {
+    padding: 0 !important;
+}
+
+.already-commented {
+    text-align: center;
+    font-size: 15px;
+    color: #8e6556;
+    font-weight: 500;
+}
+
+/* Like Dislike */
+.cld-like-dislike-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.cld-common-wrap {
+    margin-right: 10px; /* Adjust spacing between the like and dislike sections if needed */
+}
+
+.cld-like-wrap,
+.cld-dislike-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.cld-like-trigger,
+.cld-dislike-trigger {
+    display: inline-block;
+    margin-right: 5px; /* Adjust spacing between the icon and the count */
+}
+
+/* Star rating in Comments */
+.comment-content .stars {
+    float: right;
+}
+
+/* END - design_property_details_to_show_right_side_of_image */
+
+/* get-discount-voucher_modal_wrapper Start */
+#get-discount-voucher_modal_wrapper {
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 9999;
+}
+
+#get-discount-voucher_modal_wrapper input[type=text] {
+    color: #8593a9;
+    font-size: 13px;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    margin-bottom: 15px;
+    -webkit-appearance: none;
+    height: 42px;
+    padding: 9px 0px 9px 10px;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+#get-discount-voucher_modal_wrapper .form-control:focus {
+    border-color: #0073e1;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+
+#get-discount-voucher_modal_wrapper {
+    z-index: 999999;
+}
+
+#get-discount-voucher-modal .container {
+    width: auto !important;
+}
+
+#wp-child-get-discount-voucher-btn {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#wp-child-share-your-review-btn {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+#get-discount-voucher-modal {
+    margin-top: 3%;
+}
+
+.wpresidence_button[disabled] {
+    background-image: none;
+    background-color: #fff;
+    color: #f47920;
+}
+
+.login-alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    font-size: 14px;
+    padding: .75rem 1.25rem;
+}
+
+.flag-for-disagreement {
+    margin-left: 20px;
+    background-image: linear-gradient(to right, transparent 50%, #b24040 50%) !important;
+}
+
+.submit-reply {
+    margin-left: 20px;
+}
+
+/*  */
+
+/* Trustpilot Design - Start */
+
+.theme-provider_theme-default__IISCt {
+    --CDS-color-semantic-border-default: #e5e5dd;
+    --CDS-color-semantic-border-alt: #d4d4cc;
+    --CDS-color-semantic-actions-hover: #07348a;
+    --CDS-color-semantic-actions-active: #0a204d;
+    --CDS-color-semantic-actions-default: #205cd4;
+    --CDS-color-semantic-actions-surface: #d8e4fa;
+    --CDS-color-semantic-actions-surface-hover: #c2d5f7;
+    --CDS-color-semantic-actions-surface-active: #7aa0e9;
+    --CDS-color-semantic-surface-alt: #f1f1e8;
+    --CDS-color-semantic-surface-default: #fff;
+    --CDS-color-semantic-surface-disabled: rgba(28, 28, 28, .1);
+    --CDS-color-semantic-surface-inverted: #1c1c1c;
+    --CDS-color-semantic-surface-background-default: #fcfbf3;
+    --CDS-color-semantic-surface-foreground-subtle: #6a6a67;
+    --CDS-color-semantic-surface-foreground-default: #1c1c1c;
+    --CDS-color-semantic-surface-foreground-disabled: rgba(28, 28, 28, .3);
+    --CDS-color-semantic-surface-foreground-inverted: #fff;
+    --CDS-color-semantic-feedback-info-hover: #05677f;
+    --CDS-color-semantic-feedback-info-active: #074c5f;
+    --CDS-color-semantic-feedback-info-default: #117e9c;
+    --CDS-color-semantic-feedback-info-surface: #c9f0fc;
+    --CDS-color-semantic-feedback-info-surface-alt: #e2f7fe;
+    --CDS-color-semantic-feedback-warning-hover: #d99100;
+    --CDS-color-semantic-feedback-warning-active: #b57700;
+    --CDS-color-semantic-feedback-warning-default: #f9b21b;
+    --CDS-color-semantic-feedback-warning-surface: #fce1a8;
+    --CDS-color-semantic-feedback-warning-surface-alt: #fbf0d5;
+    --CDS-color-semantic-feedback-warning-foreground: #1c1c1c;
+    --CDS-color-semantic-feedback-critical-hover: #a60f00;
+    --CDS-color-semantic-feedback-critical-active: #7a0a00;
+    --CDS-color-semantic-feedback-critical-default: #d01e08;
+    --CDS-color-semantic-feedback-critical-surface: #fdc8c0;
+    --CDS-color-semantic-feedback-critical-surface-alt: #fbdeda;
+    --CDS-color-semantic-feedback-smart-hover: #5325ae;
+    --CDS-color-semantic-feedback-smart-active: #320c70;
+    --CDS-color-semantic-feedback-smart-default: #6c40d5;
+    --CDS-color-semantic-feedback-smart-surface: #d8d3ff;
+    --CDS-color-semantic-feedback-smart-surface-alt: #e6e3fc;
+    --CDS-color-semantic-feedback-positive-hover: #025e35;
+    --CDS-color-semantic-feedback-positive-active: #0a4427;
+    --CDS-color-semantic-feedback-positive-default: #0e7946;
+    --CDS-color-semantic-feedback-positive-surface: #b1f2d0;
+    --CDS-color-semantic-feedback-positive-surface-alt: #d2fae7;
+    --CDS-color-semantic-data-biased-positive-default: #0e7946;
+    --CDS-color-semantic-data-biased-positive-highest: #009855;
+    --CDS-color-semantic-data-biased-positive-high: #00b865;
+    --CDS-color-semantic-data-biased-positive-medium: #4dd78a;
+    --CDS-color-semantic-data-biased-positive-low: #89e7b2;
+    --CDS-color-semantic-data-biased-positive-lowest: #b1f2d0;
+    --CDS-color-semantic-data-biased-positive-transparent: rgba(14, 121, 70, .3);
+    --CDS-color-semantic-data-biased-positive-gradient: linear-gradient(#0e79464d, #0e794600);
+    --CDS-color-semantic-data-biased-negative-default: #d01e08;
+    --CDS-color-semantic-data-biased-negative-highest: #f4402b;
+    --CDS-color-semantic-data-biased-negative-high: #ff7661;
+    --CDS-color-semantic-data-biased-negative-medium: #ffa99b;
+    --CDS-color-semantic-data-biased-negative-low: #fdc8c0;
+    --CDS-color-semantic-data-biased-negative-lowest: #fbdeda;
+    --CDS-color-semantic-data-biased-negative-transparent: rgba(208, 30, 8, .3);
+    --CDS-color-semantic-data-biased-negative-gradient: linear-gradient(#d01e084d, #d01e0800);
+    --CDS-color-semantic-data-biased-gradient: linear-gradient(90deg, #f4402b, #e5e5dd 50%, #009855);
+    --CDS-color-semantic-data-neutral-default: #6a6a67;
+    --CDS-color-semantic-data-neutral-lowest: #e5e5dd;
+    --CDS-color-semantic-data-neutral-past: #a0a09b;
+    --CDS-color-semantic-data-neutral-transparent: hsla(60, 1%, 41%, .3);
+    --CDS-color-semantic-data-neutral-gradient: linear-gradient(#6a6a674d, #6a6a6700);
+    --CDS-color-semantic-data-neutral-empty: rgba(38, 38, 37, .1);
+    --CDS-color-semantic-data-comparative-multi-1: #c167dc;
+    --CDS-color-semantic-data-comparative-multi-2: #c74971;
+    --CDS-color-semantic-data-comparative-multi-3: #009d85;
+    --CDS-color-semantic-data-comparative-multi-4: #5c8300;
+    --CDS-color-semantic-data-comparative-multi-5: #8b40a2;
+    --CDS-color-semantic-data-comparative-multi-6: #7e2744;
+    --CDS-color-semantic-data-comparative-multi-7: #006d58;
+    --CDS-color-semantic-data-comparative-multi-8: #974c35;
+    --CDS-color-semantic-data-comparative-multi-9: #41184e;
+    --CDS-color-semantic-data-comparative-multi-10: #2f5100;
+    --CDS-color-semantic-data-comparative-multi-transparent-1: rgba(193, 103, 220, .3);
+    --CDS-color-semantic-data-comparative-multi-transparent-2: rgba(199, 73, 113, .3);
+    --CDS-color-semantic-data-comparative-multi-transparent-3: rgba(0, 157, 133, .3);
+    --CDS-color-semantic-data-comparative-multi-transparent-4: rgba(92, 131, 0, .3);
+    --CDS-color-semantic-data-comparative-multi-transparent-5: rgba(139, 64, 162, .3);
+    --CDS-color-semantic-data-comparative-multi-transparent-6: rgba(126, 39, 68, .3);
+    --CDS-color-semantic-data-comparative-multi-transparent-7: rgba(0, 109, 88, .3);
+    --CDS-color-semantic-data-comparative-multi-transparent-8: rgba(151, 76, 53, .3);
+    --CDS-color-semantic-data-comparative-multi-transparent-9: rgba(65, 24, 78, .3);
+    --CDS-color-semantic-data-comparative-multi-transparent-10: rgba(47, 81, 0, .3);
+    --CDS-color-semantic-data-comparative-multi-gradient-1: linear-gradient(#c167dc4d, #c167dc00);
+    --CDS-color-semantic-data-comparative-multi-gradient-2: linear-gradient(#c749714d, #c7497100);
+    --CDS-color-semantic-data-comparative-multi-gradient-3: linear-gradient(#009d854d, #009d8500);
+    --CDS-color-semantic-data-comparative-multi-gradient-4: linear-gradient(#5c83004d, #5c830000);
+    --CDS-color-semantic-data-comparative-multi-gradient-5: linear-gradient(#8b40a24d, #8b40a200);
+    --CDS-color-semantic-data-comparative-multi-gradient-6: linear-gradient(#7e27444d, #7e274400);
+    --CDS-color-semantic-data-comparative-multi-gradient-7: linear-gradient(#006d584d, #006d5800);
+    --CDS-color-semantic-data-comparative-multi-gradient-8: linear-gradient(#974c354d, #974c3500);
+    --CDS-color-semantic-data-comparative-multi-gradient-9: linear-gradient(#41184e4d, #41184e00);
+    --CDS-color-semantic-data-comparative-multi-gradient-10: linear-gradient(#2f51004d, #2f510000);
+    --CDS-color-semantic-data-comparative-single-1-default: #c167dc;
+    --CDS-color-semantic-data-comparative-single-1-alt: #8b40a2;
+    --CDS-color-semantic-data-comparative-single-1-surface: #f8dbff;
+    --CDS-color-semantic-data-comparative-single-1-transparent: rgba(193, 103, 220, .3);
+    --CDS-color-semantic-data-comparative-single-1-gradient: linear-gradient(#c167dc4d, #c167dc00);
+    --CDS-color-semantic-data-comparative-single-2-default: #009d85;
+    --CDS-color-semantic-data-comparative-single-2-alt: #006d58;
+    --CDS-color-semantic-data-comparative-single-2-surface: #b2f1e2;
+    --CDS-color-semantic-data-comparative-single-2-transparent: rgba(0, 157, 133, .3);
+    --CDS-color-semantic-data-comparative-single-2-gradient: linear-gradient(#009d854d, #009d8500);
+    --CDS-color-semantic-data-comparative-single-3-default: #c87760;
+    --CDS-color-semantic-data-comparative-single-3-alt: #974c35;
+    --CDS-color-semantic-data-comparative-single-3-surface: #ffded5;
+    --CDS-color-semantic-data-comparative-single-3-transparent: rgba(200, 119, 96, .3);
+    --CDS-color-semantic-data-comparative-single-3-gradient: linear-gradient(#c877604d, #c8776000);
+    --CDS-color-semantic-data-comparative-single-4-default: #709900;
+    --CDS-color-semantic-data-comparative-single-4-alt: #466b00;
+    --CDS-color-semantic-data-comparative-single-4-surface: #d6eeb2;
+    --CDS-color-semantic-data-comparative-single-4-transparent: rgba(112, 153, 0, .3);
+    --CDS-color-semantic-data-comparative-single-4-gradient: linear-gradient(#7099004d, #70990000);
+    --CDS-color-semantic-data-comparative-single-5-default: #e55b85;
+    --CDS-color-semantic-data-comparative-single-5-alt: #a5385b;
+    --CDS-color-semantic-data-comparative-single-5-surface: #ffdce7;
+    --CDS-color-semantic-data-comparative-single-5-transparent: rgba(229, 91, 133, .3);
+    --CDS-color-semantic-data-comparative-single-5-gradient: linear-gradient(#e55b854d, #e55b8500);
+    --CDS-color-semantic-data-sequential-single-1-highest: #6a2d7d;
+    --CDS-color-semantic-data-sequential-single-1-high: #8b40a2;
+    --CDS-color-semantic-data-sequential-single-1-medium: #a853c2;
+    --CDS-color-semantic-data-sequential-single-1-low: #c167dc;
+    --CDS-color-semantic-data-sequential-single-1-lowest: #d47eee;
+    --CDS-color-semantic-data-sequential-single-1-gradient: linear-gradient(#6a2d7d, #d47eee);
+    --CDS-color-semantic-data-sequential-single-2-highest: #00523f;
+    --CDS-color-semantic-data-sequential-single-2-high: #006d58;
+    --CDS-color-semantic-data-sequential-single-2-medium: #00866f;
+    --CDS-color-semantic-data-sequential-single-2-low: #009d85;
+    --CDS-color-semantic-data-sequential-single-2-lowest: #07b39a;
+    --CDS-color-semantic-data-sequential-single-2-gradient: linear-gradient(#00523f, #07b39a);
+    --CDS-color-semantic-data-sequential-single-3-highest: #79311b;
+    --CDS-color-semantic-data-sequential-single-3-high: #974c35;
+    --CDS-color-semantic-data-sequential-single-3-medium: #b0624b;
+    --CDS-color-semantic-data-sequential-single-3-low: #c87760;
+    --CDS-color-semantic-data-sequential-single-3-lowest: #de8c73;
+    --CDS-color-semantic-data-sequential-single-3-gradient: linear-gradient(#79311b, #de8c73);
+    --CDS-color-semantic-data-sequential-single-4-highest: #2f5100;
+    --CDS-color-semantic-data-sequential-single-4-high: #466b00;
+    --CDS-color-semantic-data-sequential-single-4-medium: #5c8300;
+    --CDS-color-semantic-data-sequential-single-4-low: #709900;
+    --CDS-color-semantic-data-sequential-single-4-lowest: #83ae00;
+    --CDS-color-semantic-data-sequential-single-4-gradient: linear-gradient(#2f5100, #83ae00);
+    --CDS-color-semantic-data-sequential-single-5-highest: #7e2744;
+    --CDS-color-semantic-data-sequential-single-5-high: #a5385b;
+    --CDS-color-semantic-data-sequential-single-5-medium: #c74971;
+    --CDS-color-semantic-data-sequential-single-5-low: #e55b85;
+    --CDS-color-semantic-data-sequential-single-5-lowest: #fe7099;
+    --CDS-color-semantic-data-sequential-single-5-gradient: linear-gradient(#7e2744, #fe7099);
+    --CDS-color-semantic-data-sequential-divergent-default-1: #a853c2;
+    --CDS-color-semantic-data-sequential-divergent-default-2: #c167dc;
+    --CDS-color-semantic-data-sequential-divergent-default-3: #d47eee;
+    --CDS-color-semantic-data-sequential-divergent-default-4: #edb0ff;
+    --CDS-color-semantic-data-sequential-divergent-default-5: #f4c9ff;
+    --CDS-color-semantic-data-sequential-divergent-default-6: #ffded5;
+    --CDS-color-semantic-data-sequential-divergent-default-7: #feccbe;
+    --CDS-color-semantic-data-sequential-divergent-default-8: #fcb5a1;
+    --CDS-color-semantic-data-sequential-divergent-default-9: #de8c73;
+    --CDS-color-semantic-data-sequential-divergent-default-10: #c87760;
+    --CDS-color-semantic-data-sequential-divergent-default-gradient: linear-gradient(#a853c2, #f4c9ff 50%, #ffded5 60%, #c87760);
+    --CDS-color-semantic-data-sequential-divergent-alt-1: #c74971;
+    --CDS-color-semantic-data-sequential-divergent-alt-2: #e55b85;
+    --CDS-color-semantic-data-sequential-divergent-alt-3: #fe7099;
+    --CDS-color-semantic-data-sequential-divergent-alt-4: #ffafc9;
+    --CDS-color-semantic-data-sequential-divergent-alt-5: #ffc9da;
+    --CDS-color-semantic-data-sequential-divergent-alt-6: #b2f1e2;
+    --CDS-color-semantic-data-sequential-divergent-alt-7: #82e9d3;
+    --CDS-color-semantic-data-sequential-divergent-alt-8: #4fdbc0;
+    --CDS-color-semantic-data-sequential-divergent-alt-9: #07b39a;
+    --CDS-color-semantic-data-sequential-divergent-alt-10: #009d85;
+    --CDS-color-semantic-data-sequential-divergent-alt-gradient: linear-gradient(#c74971, #ffc9da 50%, #b2f1e2 60%, #009d85);
+    --CDS-color-semantic-data-star-rating-0-default: #8d8d8f;
+    --CDS-color-semantic-data-star-rating-0-foreground: #535355;
+    --CDS-color-semantic-data-star-rating-0-surface: #d1d1d4;
+    --CDS-color-semantic-data-star-rating-0-gradient: linear-gradient(#8d8d8f4d, #8d8d8f00);
+    --CDS-color-semantic-data-star-rating-1-default: #d6341f;
+    --CDS-color-semantic-data-star-rating-1-foreground: #722b1f;
+    --CDS-color-semantic-data-star-rating-1-surface: #ffc4b4;
+    --CDS-color-semantic-data-star-rating-1-gradient: linear-gradient(#d6341f4d, #d6341f00);
+    --CDS-color-semantic-data-star-rating-2-default: #e86602;
+    --CDS-color-semantic-data-star-rating-2-foreground: #5d3c23;
+    --CDS-color-semantic-data-star-rating-2-surface: #fdeee4;
+    --CDS-color-semantic-data-star-rating-2-gradient: linear-gradient(#e866024d, #e8660200);
+    --CDS-color-semantic-data-star-rating-3-default: #b88d00;
+    --CDS-color-semantic-data-star-rating-3-foreground: #4d4325;
+    --CDS-color-semantic-data-star-rating-3-surface: #fff0c1;
+    --CDS-color-semantic-data-star-rating-3-gradient: linear-gradient(#b88d004d, #b88d0000);
+    --CDS-color-semantic-data-star-rating-4-default: #59a413;
+    --CDS-color-semantic-data-star-rating-4-foreground: #314a1c;
+    --CDS-color-semantic-data-star-rating-4-surface: #e4f7d9;
+    --CDS-color-semantic-data-star-rating-4-gradient: linear-gradient(#59a4134d, #59a41300);
+    --CDS-color-semantic-data-star-rating-5-default: #00a06a;
+    --CDS-color-semantic-data-star-rating-5-foreground: #1e4b36;
+    --CDS-color-semantic-data-star-rating-5-surface: #95e2b8;
+    --CDS-color-semantic-data-star-rating-5-gradient: linear-gradient(#00a06a4d, #00a06a00);
+    --CDS-color-base-trustpilot-brand-pink-primary: #f95a93;
+    --CDS-color-base-trustpilot-brand-pink-secondary: #4d001c;
+    --CDS-color-base-trustpilot-brand-green-primary: #04da8d;
+    --CDS-color-base-trustpilot-brand-green-secondary: #022a1c;
+    --CDS-color-base-trustpilot-brand-orange-primary: #fe7a1a;
+    --CDS-color-base-trustpilot-brand-orange-secondary: #412612;
+    --CDS-color-base-trustpilot-brand-yellow-primary: #ffe500;
+    --CDS-color-base-trustpilot-brand-yellow-secondary: #3f3500;
+    --CDS-color-base-trustpilot-brand-neutral-beige: #fcfbf3;
+    --CDS-color-base-trustpilot-brand-neutral-black: #1c1c1c;
+    --CDS-color-base-trustpilot-brand-neutral-white: #fff;
+    --CDS-color-base-trustpilot-star-rating-zero: #e8e8eb;
+    --CDS-color-base-trustpilot-star-rating-one: #ff3722;
+    --CDS-color-base-trustpilot-star-rating-two: #ff8622;
+    --CDS-color-base-trustpilot-star-rating-three: #ffce00;
+    --CDS-color-base-trustpilot-star-rating-four: #73cf11;
+    --CDS-color-base-trustpilot-star-rating-five: #00b67a;
+    --CDS-type-styles-large-body-xs-font-size: 10px;
+    --CDS-type-styles-large-body-xs-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-body-xs-font-weight: 400;
+    --CDS-type-styles-large-body-xs-line-height: 140%;
+    --CDS-type-styles-large-body-xs-letter-spacing: 0.11px;
+    --CDS-type-styles-large-body-s-font-size: 12px;
+    --CDS-type-styles-large-body-s-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-body-s-font-weight: 400;
+    --CDS-type-styles-large-body-s-line-height: 140%;
+    --CDS-type-styles-large-body-s-letter-spacing: 0.132px;
+    --CDS-type-styles-large-body-m-font-size: 14px;
+    --CDS-type-styles-large-body-m-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-body-m-font-weight: 400;
+    --CDS-type-styles-large-body-m-line-height: 140%;
+    --CDS-type-styles-large-body-m-letter-spacing: 0.154px;
+    --CDS-type-styles-large-body-l-font-size: 16px;
+    --CDS-type-styles-large-body-l-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-body-l-font-weight: 400;
+    --CDS-type-styles-large-body-l-line-height: 140%;
+    --CDS-type-styles-large-body-l-letter-spacing: 0.176px;
+    --CDS-type-styles-large-body-xl-font-size: 18px;
+    --CDS-type-styles-large-body-xl-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-body-xl-font-weight: 400;
+    --CDS-type-styles-large-body-xl-line-height: 140%;
+    --CDS-type-styles-large-body-xl-letter-spacing: 0.198px;
+    --CDS-type-styles-large-display-xs-font-size: 24px;
+    --CDS-type-styles-large-display-xs-font-family: Trustpilot Display;
+    --CDS-type-styles-large-display-xs-font-weight: 900;
+    --CDS-type-styles-large-display-xs-line-height: 130%;
+    --CDS-type-styles-large-display-xs-letter-spacing: -0.36px;
+    --CDS-type-styles-large-display-s-font-size: 32px;
+    --CDS-type-styles-large-display-s-font-family: Trustpilot Display;
+    --CDS-type-styles-large-display-s-font-weight: 900;
+    --CDS-type-styles-large-display-s-line-height: 130%;
+    --CDS-type-styles-large-display-s-letter-spacing: -0.48px;
+    --CDS-type-styles-large-display-m-font-size: 40px;
+    --CDS-type-styles-large-display-m-font-family: Trustpilot Display;
+    --CDS-type-styles-large-display-m-font-weight: 900;
+    --CDS-type-styles-large-display-m-line-height: 130%;
+    --CDS-type-styles-large-display-m-letter-spacing: -0.6px;
+    --CDS-type-styles-large-display-l-font-size: 48px;
+    --CDS-type-styles-large-display-l-font-family: Trustpilot Display;
+    --CDS-type-styles-large-display-l-font-weight: 900;
+    --CDS-type-styles-large-display-l-line-height: 130%;
+    --CDS-type-styles-large-display-l-letter-spacing: -0.72px;
+    --CDS-type-styles-large-heading-xxxs-font-size: 12px;
+    --CDS-type-styles-large-heading-xxxs-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-heading-xxxs-font-weight: 700;
+    --CDS-type-styles-large-heading-xxxs-line-height: 120%;
+    --CDS-type-styles-large-heading-xxxs-letter-spacing: -0.132px;
+    --CDS-type-styles-large-heading-xxs-font-size: 14px;
+    --CDS-type-styles-large-heading-xxs-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-heading-xxs-font-weight: 700;
+    --CDS-type-styles-large-heading-xxs-line-height: 120%;
+    --CDS-type-styles-large-heading-xxs-letter-spacing: -0.154px;
+    --CDS-type-styles-large-heading-xs-font-size: 16px;
+    --CDS-type-styles-large-heading-xs-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-heading-xs-font-weight: 700;
+    --CDS-type-styles-large-heading-xs-line-height: 120%;
+    --CDS-type-styles-large-heading-xs-letter-spacing: -0.176px;
+    --CDS-type-styles-large-heading-s-font-size: 18px;
+    --CDS-type-styles-large-heading-s-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-heading-s-font-weight: 700;
+    --CDS-type-styles-large-heading-s-line-height: 120%;
+    --CDS-type-styles-large-heading-s-letter-spacing: -0.198px;
+    --CDS-type-styles-large-heading-m-font-size: 24px;
+    --CDS-type-styles-large-heading-m-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-heading-m-font-weight: 700;
+    --CDS-type-styles-large-heading-m-line-height: 120%;
+    --CDS-type-styles-large-heading-m-letter-spacing: -0.264px;
+    --CDS-type-styles-large-heading-l-font-size: 32px;
+    --CDS-type-styles-large-heading-l-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-heading-l-font-weight: 700;
+    --CDS-type-styles-large-heading-l-line-height: 120%;
+    --CDS-type-styles-large-heading-l-letter-spacing: -0.352px;
+    --CDS-type-styles-large-heading-xl-font-size: 40px;
+    --CDS-type-styles-large-heading-xl-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-large-heading-xl-font-weight: 700;
+    --CDS-type-styles-large-heading-xl-line-height: 120%;
+    --CDS-type-styles-large-heading-xl-letter-spacing: -0.44px;
+    --CDS-type-styles-small-body-xs-font-size: 10px;
+    --CDS-type-styles-small-body-xs-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-body-xs-font-weight: 400;
+    --CDS-type-styles-small-body-xs-line-height: 140%;
+    --CDS-type-styles-small-body-xs-letter-spacing: 0.11px;
+    --CDS-type-styles-small-body-s-font-size: 12px;
+    --CDS-type-styles-small-body-s-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-body-s-font-weight: 400;
+    --CDS-type-styles-small-body-s-line-height: 140%;
+    --CDS-type-styles-small-body-s-letter-spacing: 0.132px;
+    --CDS-type-styles-small-body-m-font-size: 14px;
+    --CDS-type-styles-small-body-m-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-body-m-font-weight: 400;
+    --CDS-type-styles-small-body-m-line-height: 140%;
+    --CDS-type-styles-small-body-m-letter-spacing: 0.154px;
+    --CDS-type-styles-small-body-l-font-size: 16px;
+    --CDS-type-styles-small-body-l-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-body-l-font-weight: 400;
+    --CDS-type-styles-small-body-l-line-height: 140%;
+    --CDS-type-styles-small-body-l-letter-spacing: 0.176px;
+    --CDS-type-styles-small-body-xl-font-size: 18px;
+    --CDS-type-styles-small-body-xl-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-body-xl-font-weight: 400;
+    --CDS-type-styles-small-body-xl-line-height: 140%;
+    --CDS-type-styles-small-body-xl-letter-spacing: 0.198px;
+    --CDS-type-styles-small-display-xs-font-size: 18px;
+    --CDS-type-styles-small-display-xs-font-family: Trustpilot Display;
+    --CDS-type-styles-small-display-xs-font-weight: 900;
+    --CDS-type-styles-small-display-xs-line-height: 130%;
+    --CDS-type-styles-small-display-xs-letter-spacing: -0.27px;
+    --CDS-type-styles-small-display-s-font-size: 20px;
+    --CDS-type-styles-small-display-s-font-family: Trustpilot Display;
+    --CDS-type-styles-small-display-s-font-weight: 900;
+    --CDS-type-styles-small-display-s-line-height: 130%;
+    --CDS-type-styles-small-display-s-letter-spacing: -0.3px;
+    --CDS-type-styles-small-display-m-font-size: 24px;
+    --CDS-type-styles-small-display-m-font-family: Trustpilot Display;
+    --CDS-type-styles-small-display-m-font-weight: 900;
+    --CDS-type-styles-small-display-m-line-height: 130%;
+    --CDS-type-styles-small-display-m-letter-spacing: -0.36px;
+    --CDS-type-styles-small-display-l-font-size: 32px;
+    --CDS-type-styles-small-display-l-font-family: Trustpilot Display;
+    --CDS-type-styles-small-display-l-font-weight: 900;
+    --CDS-type-styles-small-display-l-line-height: 130%;
+    --CDS-type-styles-small-display-l-letter-spacing: -0.48px;
+    --CDS-type-styles-small-heading-xxxs-font-size: 12px;
+    --CDS-type-styles-small-heading-xxxs-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-heading-xxxs-font-weight: 700;
+    --CDS-type-styles-small-heading-xxxs-line-height: 120%;
+    --CDS-type-styles-small-heading-xxxs-letter-spacing: -0.132px;
+    --CDS-type-styles-small-heading-xxs-font-size: 14px;
+    --CDS-type-styles-small-heading-xxs-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-heading-xxs-font-weight: 700;
+    --CDS-type-styles-small-heading-xxs-line-height: 120%;
+    --CDS-type-styles-small-heading-xxs-letter-spacing: -0.154px;
+    --CDS-type-styles-small-heading-xs-font-size: 16px;
+    --CDS-type-styles-small-heading-xs-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-heading-xs-font-weight: 700;
+    --CDS-type-styles-small-heading-xs-line-height: 120%;
+    --CDS-type-styles-small-heading-xs-letter-spacing: -0.176px;
+    --CDS-type-styles-small-heading-s-font-size: 18px;
+    --CDS-type-styles-small-heading-s-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-heading-s-font-weight: 700;
+    --CDS-type-styles-small-heading-s-line-height: 120%;
+    --CDS-type-styles-small-heading-s-letter-spacing: -0.198px;
+    --CDS-type-styles-small-heading-m-font-size: 20px;
+    --CDS-type-styles-small-heading-m-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-heading-m-font-weight: 700;
+    --CDS-type-styles-small-heading-m-line-height: 120%;
+    --CDS-type-styles-small-heading-m-letter-spacing: -0.22px;
+    --CDS-type-styles-small-heading-l-font-size: 24px;
+    --CDS-type-styles-small-heading-l-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-heading-l-font-weight: 700;
+    --CDS-type-styles-small-heading-l-line-height: 120%;
+    --CDS-type-styles-small-heading-l-letter-spacing: -0.264px;
+    --CDS-type-styles-small-heading-xl-font-size: 32px;
+    --CDS-type-styles-small-heading-xl-font-family: TrustpilotDefaultFont;
+    --CDS-type-styles-small-heading-xl-font-weight: 700;
+    --CDS-type-styles-small-heading-xl-line-height: 120%;
+    --CDS-type-styles-small-heading-xl-letter-spacing: -0.352px;
+    --CDS-type-line-height-120: 120%;
+    --CDS-type-line-height-130: 130%;
+    --CDS-type-line-height-140: 140%;
+    --CDS-type-letter-spacing-body: 0.011px;
+    --CDS-type-letter-spacing-display: -0.015px;
+    --CDS-type-letter-spacing-heading: -0.011px;
+    --CDS-opacity-0: 0;
+    --CDS-opacity-10: 0.1;
+    --CDS-opacity-30: 0.3;
+    --CDS-opacity-50: 0.5;
+    --CDS-spacing-l: 24px;
+    --CDS-spacing-m: 16px;
+    --CDS-spacing-s: 12px;
+    --CDS-spacing-xl: 32px;
+    --CDS-spacing-xs: 8px;
+    --CDS-spacing-xxl: 40px;
+    --CDS-spacing-xxs: 4px;
+    --CDS-spacing-none: 0;
+    --CDS-spacing-xxxl: 64px;
+    --CDS-spacing-xxxs: 2px;
+    --CDS-box-shadow-30: 0 0 8px 0 #0000004d;
+    --CDS-box-shadow-80: 0 0 8px 0 #000000cc;
+    --CDS-border-radius-l: 16px;
+    --CDS-border-radius-m: 8px;
+    --CDS-border-radius-s: 4px;
+    --CDS-border-radius-xl: 24px;
+    --CDS-border-radius-xs: 2px;
+    --CDS-border-radius-xxl: 32px;
+    --CDS-border-radius-full: 9999px;
+    --CDS-border-radius-none: 0;
+}
+
+.styles_reviewsContainer__3_GQw {
+    display: flex;
+    flex-direction: column;
+}
+
+.styles_reviewsContainer__3_GQw .styles_popularProducts__soM42, .styles_reviewsContainer__3_GQw .styles_reviewsOverview__mVIJQ {
+    margin-bottom: 16px;
+}
+
+.card_card__lQWDv:not(.card_square___tXn9) {
+    border-radius: var(--CDS-border-radius-m);
+}
+
+@media only screen and (min-width: 640px) {
+    .card_card__lQWDv:not(.card_noPadding__D8PcU) {
+        padding: 24px;
+    }
+}
+
+.paper_outline__lwsUX {
+    border: 1px solid var(--CDS-color-semantic-border-default);
+}
+
+.paper_paper__1PY90 {
+    background-color: var(--CDS-color-semantic-surface-default);
+    overflow: hidden;
+    border-radius: var(--CDS-border-radius-xs);
+}
+/* Trustpilot Design - End */
+
+/* Site Review - Custom style - START */
+.glsr-rating-level.glsr-rating-empty svg {
+    color: #dcdce6 !important;
+}
+
+.glsr-summary .glsr-bar-background-percent {
+    color: #f47920 !important;
+}
+
+div.glsr-themed-rating {
+    --gl-rating-color-0: #f47920 !important;
+    --gl-rating-color-1: #f47920 !important;
+    --gl-rating-color-2: #f47920 !important;
+    --gl-rating-color-3: #f47920 !important;
+    --gl-rating-color-4: #f47920 !important;
+    --gl-rating-color-5: #f47920 !important;
+}
+
+div[data-field="youtubeurl"] {
+    display: none;
+}
+/* Site Review - Custom style - END */
+
+/* Google Review - Custom style - START */
+.wprevpro_star_imgs span.svgicons {
+    background: #f47920 !important;
+}
+
+.wprev_banner_top, .wprev_banner_bottom {
+    text-align: center;
+}
+
+/* .wprev_banner_top_source.cursel {
+    display: none;
+} */
+
+.wppro_banner_icon {
+    display: block !important;
+    width: 100px !important;
+}
+
+/* MAY BE DELETE - Review it and delete later */
+.custom-property-right-side-container .elementor-element, .custom-property-right-side-container {
+    --widgets-spacing: 0px 20px !important;
+}
+
+
+/* Site Review - Review Summary Hide rating bars */
+.show-only-rating-star .glsr-summary-text, .show-only-rating-star .glsr-summary-percentages {
+    display: none;
+}
+.show-only-rating-5bar .glsr-summary-stars, .show-only-rating-5bar .glsr-summary-rating, .show-only-rating-5bar .custom-glsr-rating-title {
+    display: none;
+}
+.glsr.glsr-default {
+    margin-bottom: 5px;
+}
+.show-only-rating-5bar {
+    margin-top: 25px;
+}
+
+/* START - Some general CSS */
+
+#google-rating-in-overview, #site-rating-in-overview, #custom-consolidated-star-rating
+{
+    cursor: pointer;
+}
+
+.listing-unit-img-wrapper .featured_div {
+    background-color: #f47920d9 !important;
+}
+
+.display-none {
+    display: none;
+}
+
+#signin-review-form-container {
+    box-shadow: 0 0 10px 2px rgb(0 0 0 / 14%);
+    border-radius: 0px;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    padding: 20px;
+}
+
+/* END - Some general CSS */
+
+/* START - Home page Ticker plugin - Custom CSS */
+
+.eael-ticker-wrap {
+    background-color: #EAF1F8;
+}
+.ticker-badge, .eael-ticker {
+    min-height: 75px;
+    font-size: 16px;;
+}
+
+.eael-ticker-wrap {
+    display: flex;
+    align-items: center; /* Vertically aligns content in the center */
+    justify-content: space-between; /* Adjust if needed for horizontal alignment */
+    height: 100%; /* Ensure the parent container has a height */
+}
+
+.ticker-badge {
+    display: flex;
+    align-items: center;
+}
+
+.eael-ticker {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Ensure consistency with the parent container height */
+}
+
+/* END - Home page Ticker plugin - Custom CSS */
+
+
+/* START - GIFT VOUCHER */
+/* .voucher-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voucher-option img {
+    max-width: 100%;
+    height: auto;
+}
+
+.voucher-option.selected {
+    border: 2px solid #28a745;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+}
+
+.spinner {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.spinner div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #007bff;
+    border-radius: 50%;
+    animation: spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #007bff transparent transparent transparent;
+}
+.spinner div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.spinner div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.spinner div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+.voucher-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voucher-option img {
+    max-width: 100%;
+    height: auto;
+}
+
+.voucher-option.selected {
+    border: 2px solid #28a745;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+}
+
+.spinner {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.spinner div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #007bff;
+    border-radius: 50%;
+    animation: spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #007bff transparent transparent transparent;
+}
+.spinner div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.spinner div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.spinner div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.button-green {
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+}
+.button-green:hover {
+    background-color: #218838; /* Darker green */
+}
+
+.button-red {
+    background-color: #dc3545; /* Red */
+    color: white;
+    border: none;
+}
+.button-red:hover {
+    background-color: #c82333; /* Darker red */
+}
+
+
+
+/* END - GIFT VOUCHER */
+
+.swal2-html-container, .swal2-confirm, .swal2-cancel {
+    font-size: 1.4rem !important;
+}
+
+.swal2-confirm, .swal2-cancel {
+    background-color: #f47920;
+}
+
+/* START - Property Box Design */
+
+.property_unit_type1 .icon-fav-on svg, .property_unit_type2 .icon-fav-on svg, .property_unit_type8 .icon-fav-on svg {
+    fill: #F47920;
+}
+
+/* END - Property Box Design */

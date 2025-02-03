@@ -1,0 +1,73 @@
+# Copyright (C) 2023 site-reviews-authors
+# This file is distributed under the same license as the site-reviews-authors package.
+msgid ""
+msgstr ""
+"Project-Id-Version: site-reviews-authors\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Gemini Labs <support@geminilabs.io>\n"
+"Last-Translator: Paul Ryley <paul@geminilabs.io>\n"
+"Project-Id-Version: undefined\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: config/settings.php:11
+msgctxt "admin-text"
+msgid "Review Editor Roles"
+msgstr ""
+
+#: config/settings.php:14
+msgctxt "admin-text"
+msgid "Choose which user roles are allowed to edit reviews on the front-end."
+msgstr ""
+
+#: plugin/Controller.php:27
+msgid "The review could not be found."
+msgstr ""
+
+#: plugin/Controller.php:32, plugin/Validators/PermissionValidator.php:25
+msgid "You do not have permission to update the review."
+msgstr ""
+
+#: plugin/Controller.php:45
+msgid "Editing Review"
+msgstr ""
+
+#: plugin/Controller.php:66
+msgctxt "admin-text"
+msgid "Hide the edit link"
+msgstr ""
+
+#: plugin/Form.php:93
+msgid "Updating, please wait..."
+msgstr ""
+
+#: plugin/Form.php:94
+msgid "Update review"
+msgstr ""
+
+#: plugin/Commands/UpdateReview.php:139
+msgid "Your review could not be updated and the error has been logged. Please notify the site administrator."
+msgstr ""
+
+#: plugin/Commands/UpdateReview.php:135
+msgid "The review has been updated!"
+msgstr ""
+
+#: plugin/Commands/UpdateReview.php:136
+msgid "The review has been updated and is pending approval."
+msgstr ""
+
+#: plugin/Tags/ReviewEditUrlTag.php:26
+msgctxt "admin-text"
+msgid "Edit"
+msgstr ""
+
+#: plugin/Validators/ReviewValidator.php:24
+msgid "Cannot find the review to update (ID: %s)."
+msgstr ""

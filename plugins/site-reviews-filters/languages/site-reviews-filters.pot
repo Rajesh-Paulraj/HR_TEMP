@@ -1,0 +1,296 @@
+# Copyright (C) 2022 site-reviews-filters
+# This file is distributed under the same license as the site-reviews-filters package.
+msgid ""
+msgstr ""
+"Project-Id-Version: site-reviews-filters\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Gemini Labs <support@geminilabs.io>\n"
+"Last-Translator: Paul Ryley <paul@geminilabs.io>\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: undefined\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: config/settings.php:9
+msgctxt "setting label (admin-text)"
+msgid "Search Behaviour"
+msgstr ""
+
+#: config/settings.php:11
+msgctxt "setting option (admin-text)"
+msgid "Search Content and Titles"
+msgstr ""
+
+#: config/settings.php:12
+msgctxt "setting option (admin-text)"
+msgid "Search Only Content"
+msgstr ""
+
+#: config/settings.php:13
+msgctxt "setting option (admin-text)"
+msgid "Search Only Titles"
+msgstr ""
+
+#: config/settings.php:15
+msgctxt "setting description (admin-text)"
+msgid "This restricts the review fields which are searched"
+msgstr ""
+
+#: plugin/Gatekeeper.php:101
+msgctxt "admin-text"
+msgid "%s requires the latest version of"
+msgid_plural "%s requires the latest version of the following plugins:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Gatekeeper.php:117
+msgctxt "admin-text"
+msgid "%s needs an update to work with"
+msgid_plural "%s needs an update to work with the following plugins:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: config/forms/filters-form.php:8
+msgctxt "placeholder"
+msgid "Search reviews &hellip;"
+msgstr ""
+
+#: config/forms/filters-form.php:14
+msgctxt "sort by option"
+msgid "Most Recent"
+msgstr ""
+
+#: config/forms/filters-form.php:15
+msgctxt "sort by option"
+msgid "Top Rated"
+msgstr ""
+
+#: config/forms/filters-form.php:22
+msgctxt "filter-by option"
+msgid "All stars"
+msgstr ""
+
+#: config/forms/filters-form.php:23
+msgctxt "filter-by option"
+msgid "5 star only"
+msgstr ""
+
+#: config/forms/filters-form.php:24
+msgctxt "filter-by option"
+msgid "4 star only"
+msgstr ""
+
+#: config/forms/filters-form.php:25
+msgctxt "filter-by option"
+msgid "3 star only"
+msgstr ""
+
+#: config/forms/filters-form.php:26
+msgctxt "filter-by option"
+msgid "2 star only"
+msgstr ""
+
+#: config/forms/filters-form.php:27
+msgctxt "filter-by option"
+msgid "1 star only"
+msgstr ""
+
+#: config/forms/filters-form.php:28
+msgctxt "filter-by option"
+msgid "All positive"
+msgstr ""
+
+#: config/forms/filters-form.php:29
+msgctxt "filter-by option"
+msgid "All critical"
+msgstr ""
+
+#: plugin/Blocks/SiteReviewsFiltersBlock.php:91
+msgctxt "admin-text"
+msgid "You have hidden all of the fields for this block. However, if you have enabled the filters on the Rating Summary block then the filtered status will display here."
+msgstr ""
+
+#: plugin/Controllers/Controller.php:68
+msgctxt "filter-by option"
+msgid "All Categories"
+msgstr ""
+
+#: plugin/Controllers/Controller.php:193
+msgctxt "admin-text"
+msgid "Filter Reviews"
+msgstr ""
+
+#: plugin/Controllers/ReviewsController.php:48, plugin/Shortcodes/SiteReviewsFilterShortcode.php:81
+msgctxt "admin-text"
+msgid "Display the category filter"
+msgstr ""
+
+#: plugin/Controllers/ReviewsController.php:49, plugin/Shortcodes/SiteReviewsFilterShortcode.php:76
+msgctxt "admin-text"
+msgid "Display the rating filter"
+msgstr ""
+
+#: plugin/Controllers/ReviewsController.php:50, plugin/Shortcodes/SiteReviewsFilterShortcode.php:77
+msgctxt "admin-text"
+msgid "Display the search bar"
+msgstr ""
+
+#: plugin/Controllers/ReviewsController.php:51, plugin/Shortcodes/SiteReviewsFilterShortcode.php:78
+msgctxt "admin-text"
+msgid "Display the sort by"
+msgstr ""
+
+#: plugin/Controllers/ReviewsController.php:86, plugin/Controllers/SummaryController.php:75
+msgctxt "admin-text"
+msgid "Filters"
+msgstr ""
+
+#: plugin/Controllers/SummaryController.php:60
+msgctxt "admin-text"
+msgid "Enable the filters?"
+msgstr ""
+
+#: plugin/Controllers/SummaryController.php:66
+msgctxt "admin-text"
+msgid "Enter the Custom ID of a reviews widget to enable AJAX filtering."
+msgstr ""
+
+#: plugin/Controllers/SummaryController.php:67
+msgctxt "admin-text"
+msgid "Custom Reviews ID"
+msgstr ""
+
+#: plugin/Shortcodes/SiteReviewsFilterShortcode.php:116
+msgctxt "admin-text"
+msgid "Hide the category filter"
+msgstr ""
+
+#: plugin/Shortcodes/SiteReviewsFilterShortcode.php:117
+msgctxt "admin-text"
+msgid "Hide the rating filter"
+msgstr ""
+
+#: plugin/Shortcodes/SiteReviewsFilterShortcode.php:118
+msgctxt "admin-text"
+msgid "Hide the search bar"
+msgstr ""
+
+#: plugin/Shortcodes/SiteReviewsFilterShortcode.php:119
+msgctxt "admin-text"
+msgid "Hide the sort by"
+msgstr ""
+
+#: plugin/Tags/FilterByTag.php:26
+msgid "Filter by"
+msgstr ""
+
+#: plugin/Tags/SearchForTag.php:23
+msgid "Search"
+msgstr ""
+
+#: plugin/Tags/SortByTag.php:26
+msgid "Sort by"
+msgstr ""
+
+#: plugin/Tags/StatusTag.php:28
+msgid "Filtered by"
+msgstr ""
+
+#: plugin/Tags/StatusTag.php:43
+msgid "Clear filters"
+msgstr ""
+
+#: plugin/Tags/StatusTag.php:62
+msgid "Containing %s"
+msgstr ""
+
+#: plugin/Tags/StatusTag.php:75
+msgid "Critical"
+msgstr ""
+
+#: plugin/Tags/StatusTag.php:76
+msgid "Positive"
+msgstr ""
+
+#: plugin/Tags/StatusTag.php:79
+msgid "%s Star"
+msgstr ""
+
+#: plugin/Tags/SummaryPercentagesTag.php:30
+msgid "{num} star represents {percent} of the rating"
+msgid_plural "{num} stars represent {percent} of the rating"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Tinymce/SiteReviewsFilterTinymce.php:15
+msgctxt "admin-text"
+msgid "All settings are optional."
+msgstr ""
+
+#: plugin/Tinymce/SiteReviewsFilterTinymce.php:19, plugin/Widgets/SiteReviewsFilterWidget.php:19
+msgctxt "admin-text"
+msgid "Title"
+msgstr ""
+
+#: plugin/Tinymce/SiteReviewsFilterTinymce.php:21
+msgctxt "admin-text"
+msgid "Enter a custom shortcode heading."
+msgstr ""
+
+#: plugin/Tinymce/SiteReviewsFilterTinymce.php:24, plugin/Widgets/SiteReviewsFilterWidget.php:25
+msgctxt "admin-text"
+msgid "Reviews ID"
+msgstr ""
+
+#: plugin/Tinymce/SiteReviewsFilterTinymce.php:26, plugin/Widgets/SiteReviewsFilterWidget.php:24
+msgctxt "admin-text"
+msgid "Enter the ID of the reviews block or shortcode that you want to filter."
+msgstr ""
+
+#: plugin/Tinymce/SiteReviewsFilterTinymce.php:29
+msgctxt "admin-text"
+msgid "Classes"
+msgstr ""
+
+#: plugin/Tinymce/SiteReviewsFilterTinymce.php:31
+msgctxt "admin-text"
+msgid "Add custom CSS classes to the shortcode."
+msgstr ""
+
+#: plugin/Tinymce/SiteReviewsFilterTinymce.php:36
+msgctxt "admin-text"
+msgid "Hide"
+msgstr ""
+
+#: plugin/Widgets/SiteReviewsFilterWidget.php:30
+msgctxt "admin-text"
+msgid "Enter any custom CSS classes here"
+msgstr ""
+
+#: plugin/Widgets/SiteReviewsFilterWidget.php:53
+msgctxt "admin-text"
+msgid "Site Reviews: Filter, search, and sort your reviews."
+msgstr ""
+
+#: plugin/Widgets/SiteReviewsFilterWidget.php:61, plugin/Integrations/Elementor/ElementorFilterWidget.php:31
+msgctxt "admin-text"
+msgid "Review Filters"
+msgstr ""
+
+#: plugin/Integrations/Elementor/ElementorFilterWidget.php:48
+msgctxt "admin-text"
+msgid "Link filters to a Reviews widget, block, or shortcode which has this Custom ID."
+msgstr ""
+
+#: plugin/Integrations/Elementor/ElementorFilterWidget.php:50
+msgctxt "admin-text"
+msgid "Reviews Custom ID"
+msgstr ""

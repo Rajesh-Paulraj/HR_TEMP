@@ -1,0 +1,443 @@
+# Copyright (C) 2022 site-reviews-images
+# This file is distributed under the same license as the site-reviews-images package.
+msgid ""
+msgstr ""
+"Project-Id-Version: undefined\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Gemini Labs <support@geminilabs.io>\n"
+"Last-Translator: Paul Ryley <paul@geminilabs.io>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_"
+"attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Searchpathexcluded-0: *.js\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: views/dropzone-field.php:9
+msgid "Drag & Drop your photos or <span>Browse</span>"
+msgstr "Drag & Drop your photos or <span>Browse</span>"
+
+#: views/dropzone.php:5
+msgid "Enter a caption"
+msgstr "Enter a caption"
+
+#: views/dropzone.php:8
+msgid "Save"
+msgstr "Save"
+
+#: views/dropzone.php:11, views/dropzone.php:11
+msgid "Cancel"
+msgstr "Cancel"
+
+#: views/dropzone.php:26
+msgid "Remove image"
+msgstr "Remove image"
+
+#: views/dropzone.php:29
+msgid "Edit caption"
+msgstr "Edit caption"
+
+#: plugin/Controllers/Controller.php:206
+msgid "Images only"
+msgstr "Images only"
+
+#: plugin/Controllers/Controller.php:209
+msgid "Text only"
+msgstr "Text only"
+
+#: plugin/Controllers/Controller.php:344
+msgid "Cancel upload"
+msgstr "Cancel upload"
+
+#: plugin/Controllers/Controller.php:345
+msgid "Are you sure you want to cancel this upload?"
+msgstr "Are you sure you want to cancel this upload?"
+
+#: plugin/Controllers/Controller.php:346
+msgid "Your browser does not support drag & drop file uploads."
+msgstr "Your browser does not support drag & drop file uploads."
+
+#: plugin/Controllers/Controller.php:347
+msgid ""
+"Please use the fallback form below to upload your files like in the olden "
+"days."
+msgstr ""
+"Please use the fallback form below to upload your files like in the olden "
+"days."
+
+#: plugin/Controllers/Controller.php:348
+msgid "File is too big ({{filesize}}MB). Max filesize: {{maxFilesize}}MB."
+msgstr "File is too big ({{filesize}}MB). Max filesize: {{maxFilesize}}MB."
+
+#: plugin/Controllers/Controller.php:349
+msgid "Could not load the modal content."
+msgstr "Could not load the modal content."
+
+#: plugin/Controllers/Controller.php:350
+msgid "Image Gallery"
+msgstr "Image Gallery"
+
+#: plugin/Controllers/Controller.php:351
+msgid "You cannot upload files of this type."
+msgstr "You cannot upload files of this type."
+
+#: plugin/Controllers/Controller.php:352
+msgid "You cannot upload more than {{maxFiles}} images."
+msgstr "You cannot upload more than {{maxFiles}} images."
+
+#: plugin/Controllers/Controller.php:353
+msgid "Please wait..."
+msgstr "Please wait..."
+
+#: plugin/Controllers/Controller.php:354
+msgid "Are you sure you want to remove this image?"
+msgstr "Are you sure you want to remove this image?"
+
+#: plugin/Controllers/Controller.php:355
+msgid "Server responded with {{statusCode}} code."
+msgstr "Server responded with {{statusCode}} code."
+
+#: plugin/Controllers/Controller.php:356
+msgid "Upload canceled."
+msgstr "Upload canceled."
+
+#: plugin/Controllers/Controller.php:357
+msgid "View Image Gallery"
+msgstr "View Image Gallery"
+
+#: plugin/Controllers/Controller.php:471
+msgid "Do you have photos to share?"
+msgstr "Do you have photos to share?"
+
+#: plugin/Controllers/GridController.php:52
+msgid "The image was not found, please try refreshing the page."
+msgstr "The image was not found, please try refreshing the page."
+
+#: plugin/Shortcodes/SiteReviewsImagesShortcode.php:72
+msgid "See all images "
+msgstr "See all images "
+
+#: views/grid/pagination.php:5
+msgid "Previous Page"
+msgstr "Previous Page"
+
+#: views/grid/pagination.php:12
+msgid "Go to page"
+msgstr "Go to page"
+
+#: views/grid/pagination.php:14
+msgid "Press Return/Enter key to go to the page"
+msgstr "Press Return/Enter key to go to the page"
+
+#: views/grid/pagination.php:15
+msgid "Page %d"
+msgstr "Page %d"
+
+#: views/grid/pagination.php:16
+msgid "of"
+msgstr "of"
+
+#: views/grid/pagination.php:20
+msgid "Next Page"
+msgstr "Next Page"
+
+#: config/settings.php:9
+msgctxt "setting label (admin-text)"
+msgid "Accepted Image Files"
+msgstr "Accepted Image Files"
+
+#: config/settings.php:20
+msgctxt "setting label (admin-text)"
+msgid "Delete Images with Review"
+msgstr "Delete Images with Review"
+
+#: config/settings.php:26
+msgctxt "setting label (admin-text)"
+msgid "Disable Image Modal"
+msgstr "Disable Image Modal"
+
+#: config/settings.php:35
+msgctxt "setting label (admin-text)"
+msgid "Display Images Using"
+msgstr "Display Images Using"
+
+#: config/settings.php:46
+msgctxt "setting label (admin-text)"
+msgid "Maximum File Size"
+msgstr "Maximum File Size"
+
+#: config/settings.php:53
+msgctxt "setting label (admin-text)"
+msgid "Maximum Images"
+msgstr "Maximum Images"
+
+#: config/settings.php:11
+msgctxt "setting option (admin-text)"
+msgid "JPEG and PNG files"
+msgstr "JPEG and PNG files"
+
+#: config/settings.php:12
+msgctxt "setting option (admin-text)"
+msgid "Only JPEG files"
+msgstr "Only JPEG files"
+
+#: config/settings.php:13
+msgctxt "setting option (admin-text)"
+msgid "Only PNG files"
+msgstr "Only PNG files"
+
+#: config/settings.php:15
+msgctxt "setting description (admin-text)"
+msgid "Restrict uploaded images to specific image file types"
+msgstr "Restrict uploaded images to specific image file types"
+
+#: config/settings.php:21
+msgctxt "setting description (admin-text)"
+msgid "Delete attached images when a review is permanently deleted"
+msgstr "Delete attached images when a review is permanently deleted"
+
+#: config/settings.php:27
+msgctxt "setting description (admin-text)"
+msgid ""
+"Disable the image modal used for viewing images. For example, if you are "
+"using the Elementor Lightbox to view images you may wish to disable the "
+"modal."
+msgstr ""
+"Disable the image modal used for viewing images. For example, if you are "
+"using the Elementor Lightbox to view images you may wish to disable the "
+"modal."
+
+#: config/settings.php:40
+msgctxt "setting description (admin-text)"
+msgid ""
+"The Single Modal will display individual images in a popup. The Fullscreen "
+"Lightbox will display the images using the full height/width of the browser "
+"and allow you to navigate between each image."
+msgstr ""
+"The Single Modal will display individual images in a popup. The Fullscreen "
+"Lightbox will display the images using the full height/width of the browser "
+"and allow you to navigate between each image."
+
+#: config/settings.php:47
+msgctxt "setting description (admin-text)"
+msgid "The maximum file size of images that can be uploaded"
+msgstr "The maximum file size of images that can be uploaded"
+
+#: config/settings.php:54
+msgctxt "setting description (admin-text)"
+msgid "The maximum number of images that can be added to a review"
+msgstr "The maximum number of images that can be added to a review"
+
+#: config/settings.php:37
+msgctxt "admin-text"
+msgid "Fullscreen Lightbox"
+msgstr "Fullscreen Lightbox"
+
+#: config/settings.php:38
+msgctxt "admin-text"
+msgid "Single Modal"
+msgstr "Single Modal"
+
+#: plugin/Gatekeeper.php:101
+msgctxt "admin-text"
+msgid "%s requires the latest version of"
+msgid_plural "%s requires the latest version of the following plugins:"
+msgstr[0] "%s requires the latest version of"
+msgstr[1] "%s requires the latest version of the following plugins:"
+
+#: plugin/Gatekeeper.php:117
+msgctxt "admin-text"
+msgid "%s needs an update to work with"
+msgid_plural "%s needs an update to work with the following plugins:"
+msgstr[0] "%s needs an update to work with"
+msgstr[1] "%s needs an update to work with the following plugins:"
+
+#: plugin/Blocks/SiteReviewsImagesBlock.php:126
+msgctxt "admin-text"
+msgid "No review images were found."
+msgstr "No review images were found."
+
+#: plugin/Controllers/ApiController.php:27
+msgctxt "admin-text"
+msgid "The attachment IDs of images attached to the review."
+msgstr "The attachment IDs of images attached to the review."
+
+#: plugin/Controllers/Controller.php:255
+msgctxt "admin-text"
+msgid "Display the media filter"
+msgstr "Display the media filter"
+
+#: plugin/Controllers/Controller.php:313
+msgctxt "admin-text"
+msgid "Hide the images"
+msgstr "Hide the images"
+
+#: plugin/Controllers/Controller.php:318
+msgctxt "admin-text"
+msgid "Hide the images filter"
+msgstr "Hide the images filter"
+
+#: plugin/Controllers/Controller.php:323
+msgctxt "admin-text"
+msgid "Hide the images field"
+msgstr "Hide the images field"
+
+#: plugin/Controllers/Controller.php:460, plugin/Controllers/MediaController.php:34, plugin/Controllers/MediaController.php:220
+msgctxt "admin-text"
+msgid "Images"
+msgstr "Images"
+
+#: plugin/Controllers/Controller.php:520
+msgctxt "admin-text"
+msgid "Filter Reviews"
+msgstr "Filter Reviews"
+
+#: plugin/Shortcodes/SiteReviewsImagesShortcode.php:82
+msgctxt "admin-text"
+msgid "Hide image captions"
+msgstr "Hide image captions"
+
+#: plugin/Shortcodes/SiteReviewsImagesShortcode.php:83
+msgctxt "admin-text"
+msgid "Hide image reviews"
+msgstr "Hide image reviews"
+
+#: plugin/Tinymce/SiteReviewsImagesTinymce.php:15
+msgctxt "admin-text"
+msgid "All settings are optional."
+msgstr "All settings are optional."
+
+#: plugin/Tinymce/SiteReviewsImagesTinymce.php:19
+msgctxt "admin-text"
+msgid "Title"
+msgstr "Title"
+
+#: plugin/Tinymce/SiteReviewsImagesTinymce.php:21
+msgctxt "admin-text"
+msgid "Enter a custom shortcode heading."
+msgstr "Enter a custom shortcode heading."
+
+#: plugin/Tinymce/SiteReviewsImagesTinymce.php:24
+msgctxt "admin-text"
+msgid "Classes"
+msgstr "Classes"
+
+#: plugin/Tinymce/SiteReviewsImagesTinymce.php:26
+msgctxt "admin-text"
+msgid "Add custom CSS classes to the shortcode."
+msgstr "Add custom CSS classes to the shortcode."
+
+#: plugin/Tinymce/SiteReviewsImagesTinymce.php:31
+msgctxt "admin-text"
+msgid "Hide"
+msgstr "Hide"
+
+#: plugin/Widgets/SiteReviewsImagesWidget.php:26
+msgctxt "admin-text"
+msgid "How many images would you like to display?"
+msgstr "How many images would you like to display?"
+
+#: plugin/Widgets/SiteReviewsImagesWidget.php:106
+msgctxt "admin-text"
+msgid "Site Reviews: Display a gallery of your review images."
+msgstr "Site Reviews: Display a gallery of your review images."
+
+#: plugin/Widgets/SiteReviewsImagesWidget.php:114, plugin/Integrations/Elementor/ElementorImagesWidget.php:41
+msgctxt "admin-text"
+msgid "Review Images"
+msgstr "Review Images"
+
+#: plugin/Integrations/Elementor/ElementorImagesWidget.php:101
+msgctxt "admin-text"
+msgid "Maximum number of images to display"
+msgstr "Maximum number of images to display"
+
+#: config/settings.php:44
+msgctxt "abbreviation of megabytes (admin-text)"
+msgid "MB"
+msgstr "MB"
+
+#: config/settings.php:51
+msgctxt "maximum number of (admin-text)"
+msgid "images"
+msgstr "images"
+
+#: plugin/Uploader.php:136, plugin/Controllers/MediaController.php:76, plugin/Controllers/MediaController.php:278
+msgctxt "image title"
+msgid "%s Image"
+msgstr "%s Image"
+
+#: plugin/Controllers/Controller.php:187
+msgctxt "filter-by option"
+msgid "Text, image"
+msgstr "Text, image"
+
+#: plugin/Controllers/Controller.php:188
+msgctxt "filter-by option"
+msgid "Images only"
+msgstr "Images only"
+
+#: plugin/Controllers/Controller.php:189
+msgctxt "filter-by option"
+msgid "Text only"
+msgstr "Text only"
+
+#: plugin/Controllers/MediaController.php:91
+msgctxt "media (admin-text)"
+msgid "Add Images"
+msgstr "Add Images"
+
+#: plugin/Controllers/MediaController.php:92
+msgctxt "media (admin-text)"
+msgid "Edit Image"
+msgstr "Edit Image"
+
+#: plugin/Controllers/MediaController.php:93
+msgctxt "media (admin-text)"
+msgid "Swap Image"
+msgstr "Swap Image"
+
+#: plugin/Controllers/MediaController.php:99
+msgctxt "media (admin-text)"
+msgid " images"
+msgstr " images"
+
+#: plugin/Controllers/MediaController.php:100
+msgctxt "media (admin-text)"
+msgid "No Title"
+msgstr "No Title"
+
+#: plugin/Controllers/MediaController.php:101
+msgctxt "media (admin-text)"
+msgid "or"
+msgstr "or"
+
+#: plugin/Controllers/MediaController.php:102
+msgctxt "media (admin-text)"
+msgid "Remove Image"
+msgstr "Remove Image"
+
+#: plugin/Controllers/MediaController.php:103
+msgctxt "media (admin-text)"
+msgid "Select Images"
+msgstr "Select Images"
+
+#: plugin/Controllers/MediaController.php:104
+msgctxt "media (admin-text)"
+msgid " file"
+msgstr " file"
+
+#: plugin/Controllers/MediaController.php:105
+msgctxt "media (admin-text)"
+msgid "Drop files here to upload"
+msgstr "Drop files here to upload"
+
+#: plugin/Controllers/MediaController.php:106
+msgctxt "media (admin-text)"
+msgid "View"
+msgstr "View"

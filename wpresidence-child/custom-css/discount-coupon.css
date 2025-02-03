@@ -1,0 +1,163 @@
+/* General Modal Styling */
+#discount-coupon-modal .modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#discount-coupon-modal .modal-header {
+    background-color: #f47920 !important;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+#discount-coupon-modal .modal-header .close span {
+    color: #fff;
+    font-size: 24px;
+    opacity: 1;
+}
+
+#discount-coupon-modal .modal-body {
+    padding: 15px;
+    background: #f9f9f9;
+}
+
+/* Card Styling */
+#discount-coupon-modal .card {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#discount-coupon-modal .card-header {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 10px;
+    background-color: #f47920 !important;
+    color: #fff;
+    border: none;
+}
+
+#discount-coupon-modal .card-body {
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* List Styles */
+#discount-coupon-modal .card-body ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Form Section Styling */
+#discount-coupon-modal .form-control {
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#discount-coupon-modal label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+#discount-coupon-modal .form-check-label {
+    font-size: 14px;
+    color: #333;
+}
+
+#discount-coupon-modal .btn {
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-top: 5px;
+}
+
+#discount-coupon-modal .btn-primary {
+    background-color: #f47920;
+    border: none;
+}
+
+#discount-coupon-modal .btn-primary:hover {
+    background-color: #e86a10;
+}
+
+#discount-coupon-modal .btn-success {
+    background-color: #f47920;
+    border: none;
+}
+
+#discount-coupon-modal .btn-success:hover {
+    background-color: #e86a10;
+}
+
+#discount-coupon-modal .btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#discount-coupon-modal .btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Disabled Button Styling */
+#discount-coupon-modal .btn[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    color: #666;
+}
+
+#discount-coupon-modal .d-flex.flex-wrap > * {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    #discount-coupon-modal .modal-content {
+        padding: 10px;
+    }
+
+    #discount-coupon-modal .card-body {
+        padding: 8px;
+    }
+
+    #discount-coupon-modal label,
+    #discount-coupon-modal .form-check-label {
+        font-size: 13px;
+    }
+
+    #discount-coupon-modal .form-control {
+        font-size: 13px;
+    }
+
+    #discount-coupon-modal .btn {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+    #discount-coupon-modal .d-flex.flex-wrap > * {
+        margin-bottom: 5px;
+    }
+}
+
+.card.mb-4, .card.mb-3 {
+    margin-bottom: 10px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+#send-otp-to-mobile-div, #send-otp-to-email-div, #send-otp-btn, #enter-otp, #verify-otp-btn {
+    display: inline;
+}
+
+#send-otp-to-email-div, #send-otp-btn {
+    margin-left: 20px;
+}
